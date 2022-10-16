@@ -1,0 +1,21 @@
+<script>
+    //single leveliml
+    class A{
+        myFun1(){
+            console.log(Func1);
+        }
+    }
+    class B extends A{
+        myFun2(){
+            console.log(Func2);
+        }
+        myFun1(){
+            console.log(Fun3);
+        }
+    }
+    var rec1=new B();
+    console.log(rec1);
+    rec1.myFun1();
+    rec1.myFun2();
+
+</script>
